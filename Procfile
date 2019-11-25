@@ -1,1 +1,1 @@
-web: gunicorn admin.wsgi --log-file -
+web: gunicorn sos_pet.wsgi --log-file -
