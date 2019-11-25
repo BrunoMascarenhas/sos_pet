@@ -1,2 +1,2 @@
-web: python manage.py migrate
-web: gunicorn admin.wsgi --log-file -
+web: python manage.py migrate --run-syncdb
+web: gunicorn sos_pet.wsgi --log-file -
